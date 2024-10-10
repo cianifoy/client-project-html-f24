@@ -8,12 +8,12 @@
 </head>
 
 <body>
-    <a href="academic.html">Skip to Main Content</a>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="academic.html">MSI Academic Advising</a></li>
+                <li class="active"><a href="academic.html">MSI Academic Advising</a></li>
                 <li><a href="peertutoring.html">Peer Tutoring</a></li>
                 <li><a href="firstgen.html">First Gen Gateway</a></li>
             </ul>
@@ -21,7 +21,7 @@
         <h1>MSI Academic Advising</h1>
 
     </header>
-    <main>
+    <main class="container" id="main">
         <div>
             <p>This page aims to provide you with additional information regarding your specific degree requirements for
                 MSI. The four tracks are Big Data Analytics, UX Research and Design, User-Centered Agile Development,
@@ -54,9 +54,7 @@
 
             </div>
 
-        </div>
-
-        <section>
+        <div>
             <ol>
                 <li>Big Data Analytics</li>
                 <ol>
@@ -89,7 +87,8 @@
                             Planning Sheet</a></li>
                 </ol>
             </ol>
-        </section>
+        </div>
+        </div>
 
         <section>
 
@@ -151,11 +150,8 @@
                         Internship Handbook</a></p>
         </section>
     </main>
+    <footer>
+        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising</a></p>
+    </footer>
 </body>
-<br>
-<footer>
-    <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising</a></p>
-</footer>
-
-
 </html>
