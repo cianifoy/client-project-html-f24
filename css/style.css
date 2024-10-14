@@ -115,18 +115,6 @@ img{
     cursor: pointer;
 
 }
-.core-track{
-    ol{
-        color: rgb(0, 0, 0);
-        padding-left: 1px;
-    }
-}
-.core-track2{
-    li{
-        color: rgb(0, 0, 0);
-        padding-right: 10px;
-    }
-}
 .list-item-size{
     font-size: 20px;
     color: midnightblue;
