@@ -14,7 +14,7 @@
         <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
         <nav>
             <ul>
-                <li class="active"><a href = "index.html">Home</a></li> 
+                <li><a href = "index.html" class="active">Home</a></li> 
                 <li><a href = "academic.html">Academic Advising</a></li>
                 <li><a href = "peertutoring.html">Peer Tutoring</a></li>
                 <li><a href="firstgen.html">First Gen</a></li>
@@ -23,7 +23,7 @@
     </header>
     <main class="container" id="main">
         <h1>Student Success Portal</h1>
-        <img src="images/MCOMMONS Spring Commencement 2024-89.jpg" alt="graduation cap with the block 'M'">
+        <img src="images/MCOMMONS Spring Commencement 2024-89.jpg" alt="graduation cap with the block 'M'" class="header-image2">
         <section>
             <h2>Welcome to the UM Grad Success Navigator</h2>
             <p> Your Comprehensive Guide to Resources for Graduate School Success</p>
@@ -41,7 +41,11 @@
             <hr>
             <h2>Physical Health</h2>
             <p>Keeping your body healthy is essential for success. The University of Michigan offers numerous resources to help you stay in top physical condition:</p>
-            <article>
+        <div>
+        </section>
+
+        <section class="academics6">
+            <article class="img-1">
                 <h3>University Health Service (UHS)</h3>
                 <figure>
                     <img src="images/UHS.jpg" alt="University Health Services building">
@@ -49,7 +53,7 @@
                 </figure>
                 <p>University Health Service (UHS): Access comprehensive medical care, including routine check-ups, vaccinations, and specialist referrals.</p>
             </article>
-            <article>
+            <article class="img-2">
                 <h3>Recreational Sports</h3>
                 <figure>
                     <img src="images/UMSI_CampusFall_UMSIBackpack_02.jpg" alt="A student wears a UMSI backpack in fall on the drag.">
@@ -57,8 +61,9 @@
                 </figure>
                 <p>Participate in various fitness programs, sports clubs, and use of gym facilities to stay active and healthy.</p>
             </article>
-        </section>
-        
+
+        </section>>
+           
         <section>
             <hr>
             <h2>Mental Health</h2>
@@ -104,7 +109,12 @@
         <p>MSI Academic Advising</p> 
         <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">Student Support Services</a>
         <p>Location: 333 Maynard, Suite 500</p>
+        <p class="footer-last-line">© Copyrights <span id="year"></span> by UMSI. All rights reserved.</p>
 
     </footer>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+    
 </body>
 </html>

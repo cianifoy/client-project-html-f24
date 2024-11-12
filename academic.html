@@ -17,7 +17,7 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="academic.html">Academic Advising</a></li>
+                <li><a href="academic.html" class="active">Academic Advising</a></li>
                 <li><a href="peertutoring.html">Peer Tutoring</a></li>
                 <li><a href="firstgen.html">First Gen</a></li>
             </ul>
@@ -51,22 +51,22 @@
                 Note: The AMDP has separate requirements. Please consult the specific AMDP Degree Requirements page for
                 more information.</p>
             <hr>
+               
+
+        </section>
+
+        <div class="academics">
             <div class="row">
                 <div class="column">
                     <img src="images/UMSI_SI662_MHI_CLASSROOM_02.jpg"
                         alt="Students in a classroom engaging with one another" style="width:100%">
                 </div>
                
-
             </div>
-
-        </section>
-
-        <section>
             <ol>
                 <li class="list-item-size">Big Data Analytics</li>
             
-                    <li class="button1"><a href="https://docs.google.com/document/d/1ptPejHcU7QmAMGjaDcY5HnfbUolypxCbR-yAr_0gOSo/edit">Degree
+                    <li class="button1"><a href="404error.html">Degree
                             Requirements</a></li>
                     <li class="button1"><a
                             href="https://docs.google.com/spreadsheets/d/1s3QW3_kr-4hnW18dS4Ga6eG8675WznAJL2yK7f1eqAQ/edit?gid=1841159775#gid=1841159775">Course
@@ -93,13 +93,13 @@
                             Planning Sheet</a></li>
             </ol>
         </div>
-        </section>
+    
 
         <section>
             <hr>
             <div>
                 <img src="images/UMSI_SpringCampus_04122022_007.jpg"
-                    alt="Student in North Quad sitting and studying" style="width:100%">
+                    alt="Student in North Quad sitting and studying" style="width:100%" class="img-body">
 
                 <h2>Instructions: Using the Course Planning Worksheets</h2>
                 <ol>
@@ -124,43 +124,51 @@
                     
                         <li>Make sure to give sharing permission to umsi.msi.advising@umich.edu too 😃</li>
                 </ol>
+                <hr>
         </section>
-
-        <section>
+    
+        <section class="academics2">
             <hr>
+            <div>
                 <img src="images/UMSI_DesignJam_GreatLakesWaterSafety_01.jpg"
-                    alt="Students collaborating together surrounded by sticky notes in a classroom" style=width:100%>
-                <br>
-                <h2>Elective Options</h2>
-                <p>MSI students must enroll in various elective courses to fulfill the 48 total graduate-level credit
+                    alt="Students collaborating together surrounded by sticky notes in a classroom" class="img2">
+            </div>
+
+
+                <div>
+                    <h2>Elective Options</h2>
+                    <p>MSI students must enroll in various elective courses to fulfill the 48 total graduate-level credit
                     requirements for the MSI degree. Up to 9 of the graduate-level credits that count toward the MSI
                     degree
                     can be completed from a UM School or College outside of UMSI.
-                <p><a href="https://docs.google.com/document/d/1D8ShTox-3VLjFxu10rXeRput0uY1RPV2U9plFXhlO20/edit">Fall
+                    <p><a href="https://docs.google.com/document/d/1D8ShTox-3VLjFxu10rXeRput0uY1RPV2U9plFXhlO20/edit">Fall
                         2024
                         UMSI Electives</a></p>
-                <p><a href="https://docs.google.com/document/d/1Cb8h3F7R74Mcrc3exQ2fS0ezjn6aELu5AhE7U2dnv4Q/edit">Graduate
+                    <p><a href="https://docs.google.com/document/d/1Cb8h3F7R74Mcrc3exQ2fS0ezjn6aELu5AhE7U2dnv4Q/edit">Graduate
                         Course Catalog for UM Schools and Colleges</a></p>
-        </section>
-            <br>
-        <section>
-                <h2>Internship Credits for MSI Students</h2>
-                <p>MSI students are eligible to receive up to 9 credits for approved internships through the UMSI
+        
+                    <h2>Internship Credits for MSI Students</h2>
+                    <p>MSI students are eligible to receive up to 9 credits for approved internships through the UMSI
                     Internship
                     program. Most internships are typically completed in the Summer semester between the first and
                     second
                     year in the program, with the credits backdated to the prior winter semester:
                     Please contact the Internships team in the CDO for registration and support at
                     umsi.internships@umich.edu.</p>
-                <p><a href="https://docs.google.com/document/d/1H-PFJKGsXvmaSrvzfzJu_qkBWOlNOjtKDRkDFeL6ORA/edit">MSI
+                    <p><a href="https://docs.google.com/document/d/1H-PFJKGsXvmaSrvzfzJu_qkBWOlNOjtKDRkDFeL6ORA/edit">MSI
                         Internship Handbook</a></p>
+                </div>
         </section>
     </main>
     <footer>
         <p>MSI Academic Advising</p> 
         <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">Student Support Services</a>
         <p>Location: 333 Maynard, Suite 500</p>
+        <p class="footer-last-line">© Copyrights <span id="year"></span> by UMSI. All rights reserved.</p>
 
     </footer>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 </body>
 </html>

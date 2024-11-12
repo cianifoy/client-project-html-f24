@@ -59,14 +59,14 @@ ul{
    
 }
 a{
-    color: purple;
+    color: rgb(95, 55, 174);
 }
-/* .active{
-    color: rgb(0, 0, 0);
-} */
-.skip{
+.active{
+    color: #FFCB05; 
+}
+div .skip{
     position: absolute;
-    top: -40px;
+    top: -80px;
 }
 footer{
     padding-right: 20px;
@@ -106,6 +106,7 @@ img{
     border: solid 1px;
     border-radius: 5px;
     color: rgb(0, 0, 0);
+    padding: 10px 32px 10px 32px;
     /* padding: 5px 60px; */
     text-align: center;
     text-decoration: none;
@@ -166,4 +167,334 @@ footer{
 }
 footer a{
     color: #ffffff;
+}
+footer .footer-last-line {
+    text-align: center;  
+    width: 100%;   
+    grid-column: 1/-1;      
+}
+form {
+    background-color:#00274C; 
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    color: #ffffff; 
+    margin: 20px 0px 40px 0px;
+    
+    
+}
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+}
+  
+  input[type="text"], input[type="number"] {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #191970;
+    border-radius: 5px;
+}
+  
+  input[type="submit"] {
+    background-color: #FFCB05; 
+    color: black; 
+    padding: 10px;
+    width: 100%;
+}
+label{
+    font-size: 16px;
+}
+legend{
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: #FFCB05;
+}
+.radio-group{
+    padding-bottom: 30px;
+}
+
+@media only screen and (min-width: 1440px){
+    
+    .skip{
+        position: absolute; 
+        top: -40px;
+    }
+    .skip:focus-within {
+        top: 90px;
+    }
+    section{
+        margin: 20px 60px 0px 60px;
+    }
+    
+    nav{
+        a{
+            font-size: 26px;
+            gap: 20px;
+
+        }
+
+    }
+    .active{
+    color: #FFCB05; 
+    }
+    header li {
+        margin: 40px;
+    }
+    h1{
+        font-size: 50px;
+        margin-left: 65px;
+    }
+    h2{
+        font-size: 40px;
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    figcaption{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    p{
+        font-size: 24px;
+        line-height: 28px;
+        /* margin: 10px; */
+    }
+    li{
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+    .academics{
+        display:flex;
+        max-width:1500px;
+        margin-right: 10px;
+        margin-left: 200px;
+        padding-top: 40px;
+        padding-bottom:40px;
+        align-items: center;
+        
+        
+    }
+    .row{
+        width: 70%;
+        padding-right: 50px;
+    }
+    .list-item-size{
+        font-size: 25px;
+    }
+    a{
+        font-size: 24px;
+    }
+    li a{
+        font-size: 20px;
+    }
+    nav a{
+        font-size: 26px;
+    }
+    .header-image{
+        display: inline-block;
+        object-fit: cover;   
+        max-width:2000px;
+        max-height:900px;
+        width: auto;
+        height: auto;
+    }
+    .header-image2 {
+        display: block;
+        max-width: 100%;       /* Ensures the image stretches to fill the container's width */
+        object-fit: cover;
+    }
+    .img-body{
+        max-width: 1800px;
+        max-height: 900px;
+        object-fit:fill;
+        
+
+    }
+    .img-body2{
+        max-width: 2500px;
+        max-height: 600px;
+        object-fit: cover;
+        padding-bottom: 50px;
+
+    }
+    .peerintro-text{
+        margin: 0px 40px;
+         padding: 0px 30px 0px 30px;
+
+        ul{
+            padding-left: 70px;
+
+        }
+        li.button2 {
+            display: flex;
+            display: inline-block;    /* Aligns <li> items side by side */
+            margin-right: 10px;       /* Optional: space between buttons */
+            margin-bottom: 20px;
+        }
+    }
+        
+    .academics2{
+        display:flex;
+        max-width: 2000px;
+        margin-right: 10px;
+        padding: 0px 20px 30px 20px;
+        /* margin-left: 70px;  
+        padding-top: 20px; */
+
+        .img2{
+            max-width: 900px;
+            padding-right: 70px;
+        }
+    }
+    .peertutoring-img2{
+        max-width: fit-content;
+        /* padding-right: 90px; */
+        padding-left: 90px;
+        max-width: 100%;
+        object-fit: fill;
+    }
+    .academics4{
+        display:flex;
+        margin-right: 0px 40px 0px 40px;
+        padding: 0px 80px 30px 80px;
+        align-items: center;
+        justify-content: center;
+    }
+    .academics5{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+            img{
+                margin-right: 600px;
+
+        }
+    }
+    .academics6{
+        display:flex;
+
+    }
+    .img-1{
+        padding-right: 30px;
+       
+    }
+   
+    .csp-img{
+        /* padding-right: 80px; */
+        max-width: 900px;
+        max-height: 600px;
+    }
+    .csp-text{
+        padding-left: 60px;
+        padding-top: 100px;
+        align-items: center;
+    }
+    .firstgen-text1{
+        max-width: 50%;
+    }
+    .peertutoring-img3{
+        width: 100%;           
+        height: auto;          
+        max-width: 100%;      
+        max-height: 100%;    
+        object-fit: contain;
+    }
+    .academics3{
+        display:flex;
+        max-width: 2000px;
+        margin-right: 10px;
+        padding: 0px 50px 30px 200px;
+        /* margin-left: 70px;  
+        padding-top: 20px; */ 
+    .img2{
+        max-width: 800px;
+        object-fit: fill;
+        padding-right: 80px;
+        padding-top: 30px;
+        /* padding-right: 100px; */
+    }
+    form {
+        background-color:#00274C; 
+        padding: 20px;
+        max-width: 900px;
+        margin: auto;
+        color: #ffffff; 
+        
+        
+    }
+      
+      label {
+        display: block;
+        margin-bottom: 10px;
+    }
+      
+      input[type="text"], input[type="number"] {
+        width: 90%;
+        padding: 8px;
+        margin-bottom: 15px;
+        border: 1px solid #191970;
+        border-radius: 5px;
+    }
+      
+      input[type="submit"] {
+        background-color: #FFCB05; 
+        color: black; 
+        padding: 10px;
+        width: 100%;
+    }
+    label{
+        font-size: 24px;
+    }
+    legend{
+        font-size: 26px;
+        padding-bottom: 30px;
+        color: #FFCB05;
+    }
+    .form-display{
+        max-width: 900px;
+        padding-top: 100px;
+        
+    }
+    .tutoring-text{
+        max-width: 800px;
+    }
+    .radio-group{
+        padding-bottom: 40px;
+    }
+    }
+    .backgroundcolor-404{
+        background-color: #10284a;
+    }
+    .michigan-banner{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+    .errorheader-message{
+        color: #ffffff;
+        font-size: 100px;
+        text-align: center;
+        position: relative;
+        top: 100px;
+
+    }
+    .errorbody-message{
+        color: #ffffff;
+        font-size: 50px;
+        text-align: center;
+        position: relative;
+        top: 150px;
+        line-height: 60px;
+
+
+    }
+    
+
+    
+
 }

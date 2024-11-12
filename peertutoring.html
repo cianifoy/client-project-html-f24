@@ -17,7 +17,7 @@
             <ul>
                 <li><a href = "index.html">Home</a></li>
                 <li><a href = "academic.html">Academic Advising</a></li>
-                <li><a href = "peertutoring.html">Peer Tutoring</a></li>
+                <li><a href = "peertutoring.html" class="active">Peer Tutoring</a></li>
                 <li><a href="firstgen.html">First Gen</a></li>
             </ul>
         </nav>
@@ -25,8 +25,8 @@
 
     <main class="container" id="main">
         <h1>UMSI Tutoring & Academic Support</h1>
-        <img src="images/UMSI_AR_VR_CLASS_04.jpg" alt="students in AR/VR class surrounded by student and her computer" style=width:100%; >
-        <section>
+        <img src="images/UMSI_AR_VR_CLASS_04.jpg" alt="students in AR/VR class surrounded by student and her computer" style=width:100%; class="header-image">
+        <section class="peerintro-text">
             <h2>Welcome!</h2>
             <p>The Academic Success Team at UMSI is dedicated to supporting students inside and outside of the classroom. This site is dedicated to connecting students to tutoring and academic support resources. Resources covered on this site include:</p>
             <ul>
@@ -36,21 +36,69 @@
                 <li>Additional Academic Support Resources</li>
                 <li>Link to the Peer-to-Peer Tutor Directory</li>
             </ul>
-        </section>
-        <section>
             <hr>
-            <h2>UMSI Peer Tutoring Program</h2>
-            <img src="images/UMSI_SI662_MHI_CLASSROOM_01.jpg" alt="students studying and working together in classroom">
-            <p>In partnership with our UMSI faculty, the UMSI Peer Tutoring program is an opportunity for UMSI students and students taking UMSI courses to engage with peer tutors and receive assistance and support in UMSI courses.</p>
-            <p>For more information regarding student support and tutoring, please email umsi.academicsuccess@umich.edu.</p>
-            <p>For additional support, please visit <a href="https://sites.google.com/umich.edu/umsitutoring/additional-academic-support?authuser=0">the UMSI page for academic support.</a> On this page you will find writing resources and the peer-to-peer tutor directory.</p>
         </section>
+       
+
+
+    <div class="academics3">
+        <section>
+        
+            <h2>UMSI Peer Tutoring Program</h2>
+            <img src="images/UMSI_SI662_MHI_CLASSROOM_01.jpg" alt="students studying and working together in classroom" class="img-body2">
+            <div class="tutoring-text">
+                <p>In partnership with our UMSI faculty, the UMSI Peer Tutoring program is an opportunity for UMSI students and students taking UMSI courses to engage with peer tutors and receive assistance and support in UMSI courses.</p>
+                <p>For more information regarding student support and tutoring, please email umsi.academicsuccess@umich.edu.</p>
+                <p>For additional support, please visit <a href="https://sites.google.com/umich.edu/umsitutoring/additional-academic-support?authuser=0">the UMSI page for academic support.</a> On this page you will find writing resources and the peer-to-peer tutor directory.</p>
+            </div>
+        </section>
+        <section class="form-display">
+            <form action="https://formspree.io/f/xanyeoao" method="POST">
+                <fieldset>
+                    <legend>Sign Up For Tutoring Session</legend>
+                    
+        
+                    <label for="username">Email:</label>
+                    <input type="text" id="username" name="username" required>
+                    
+                  
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+            
+                 
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+            
+                 
+                    <label for="program">Program: </label>
+                    <input type="text" id="program" name="program">
+            
+                    <div class="radio-group">
+                        <p>Available Sessions:</p>
+                        <input type="radio" id="morning" name="available-time" value="morning">
+                        <label for="morning">Math Peer Tutoring</label>
+            
+                        <input type="radio" id="afternoon" name="available-time" value="afternoon">
+                        <label for="afternoon">Programming Peer Tutoring</label>
+                    </div>
+            
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </section>
+        
+    
+
     </main>
     <footer>
         <p>MSI Academic Advising</p> 
         <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">Student Support Services</a>
         <p>Location: 333 Maynard, Suite 500</p>
+        <p class="footer-last-line">© Copyrights <span id="year"></span> by UMSI. All rights reserved.</p>
 
     </footer>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 </body>
 </html>

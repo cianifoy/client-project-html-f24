@@ -17,15 +17,18 @@
                 <li><a href = "index.html">Home</a></li>
                 <li><a href = "academic.html">Academic Advising</a></li>
                 <li><a href = "peertutoring.html">Peer Tutoring</a></li>
-                <li><a href="firstgen.html">First Gen</a></li>
+                <li><a href="firstgen.html" class="active">First Gen</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="container" id="main">
         <h1>First Gen Gateway</h1>
-        <img src="images/MCOMMONS DSC01559.jpg" alt="students sitting and chatting with one another in the student commons" style="width:100%;">
-        <section>
+        <img src="images/MCOMMONS DSC01559.jpg" alt="students sitting and chatting with one another in the student commons" style="width:100%;" class="header-image">
+        
+    <div class="academics4">
+    
+        <div class="firstgen-text1">
             <h2>What is the First-Gen Gateway?</h2>
             <p>The First Generation Student Gateway serves as a starting point to get connected to resources for first-generation students. Housed in the Office of Academic Multicultural Initiatives (OAMI), the Gateway is linked to several partner offices and is a home for support for first-generation students. The Gateway is for all first-generation undergraduate and graduate students and their allies. The Gateway is open during regular business hours (8AM-5PM). You can use the space for:</p>
             <ol>
@@ -35,34 +38,48 @@
                 <li>Study space</li>
                 <li>Meeting space</li>
             </ol>
-            <img src="images/MCOMMONS DSC01566.jpg" alt="students studying at a table together" style="width:100%;">
+        </div>
+        <div>
+            <img src="images/MCOMMONS DSC01566.jpg" alt="students studying at a table together" class="peertutoring-img2">
+        </div>
         </section>
+    </div>
+
         <section>
             <hr>
             <h2>Location</h2>
-            <img src="images/MCOMMONS-Student_Activities_Building.JPG" alt="student activites building">
+            <img src="images/MCOMMONS-Student_Activities_Building.JPG" alt="student activites building" class="peertutoring-img3">
             <p>The Gateway is located in the Office of Academic Multicultural Initiatives on the 3rd floor of the Student Activities Building at 515 E. Jefferson St.</p>
         </section>
         <section>
             <hr>
             <h2>First Generation Leadership Team</h2>
             <p>The First-Generation Leadership Team provides strategic direction to the First-Generation Program. The team is led by the first-generation program director and the directors of four offices, each of which connects the program to a different unit: Comprehensive Studies Program (LSA), Multi-Ethnic Student Affairs (Student Life), Office of New Student Programs (OEM), and the Office of Academic Multicultural Initiatives (ODEI). In the four-office structure, the program manager mobilizes resources from each office to a collective impact model to sustain commitment across stakeholders. Each of the four offices partners on First-Generation Gateway Programs.</p>
+            <hr>
         </section>
+
+        <section class="academics5">
+            <hr>
+            <div class="csp-img">
+                <h2>Comprehensive Studies Program (CSP)</h2>
+                <img src="images/MCOMMONS-CampusViews823-05.jpg.jpg" alt="student working at table" style="width:100%;">
+            </div>
+            <div class="csp-text">
+                <p>CSP provides comprehensive academic support to U-M students through the College of Literature, Science and the Arts courses, holistic academic advising, academic and co-curricular programming, and student support services that utilize high-impact, inclusive practices to encourage student agency and engagement. CSP serves students from all of U-M’s undergraduate-serving schools and colleges.</p>
+                <h3>Highlights</h3>
+                <ol>
+                    <li>Multidisciplinary curriculum of courses in the natural sciences, social sciences, humanities, and mathematics</li>
+                    <li>Strengths-based, student-centered academic advising</li>
+                    <li>Summer Bridge Scholars Program</li>
+                </ol>
+                <p class="button1"><a href="https://lsa.umich.edu/csp">Visit CSP</a></p>
+            </div>
+
+        </section>
+
         <section>
             <hr>
-            <h2>Comprehensive Studies Program (CSP)</h2>
-            <img src="images/MCOMMONS-CampusViews823-05.jpg.jpg" alt="student working at table" style="width:100%;">
-            <p>CSP provides comprehensive academic support to U-M students through the College of Literature, Science and the Arts courses, holistic academic advising, academic and co-curricular programming, and student support services that utilize high-impact, inclusive practices to encourage student agency and engagement. CSP serves students from all of U-M’s undergraduate-serving schools and colleges.</p>
-            <h3>Highlights</h3>
-            <ol>
-                <li>Multidisciplinary curriculum of courses in the natural sciences, social sciences, humanities, and mathematics</li>
-                <li>Strengths-based, student-centered academic advising</li>
-                <li>Summer Bridge Scholars Program</li>
-            </ol>
-            <p class="button1"><a href="https://lsa.umich.edu/csp">Visit CSP</a></p>
             <img src="images/MCOMMONS-LSA Building EXT.jpg.jpg" alt="Literature, Science, and Arts Building located on the University of Michigan's Central Campus" style="width:100%;">
-        </section>
-        <section>
             <hr>
             <h2>Multi-Ethnic Student Affairs (MESA)</h2>
             <p>MESA provides support and programming through celebrations, educational offerings, and building social capital through the lens of race and ethnicity. MESA is a unit in Student Life and is responsible for student development and empowerment of the entire campus community around issues of diversity and social justice through this lens.</p>
@@ -119,8 +136,12 @@
         <p>MSI Academic Advising</p> 
         <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">Student Support Services</a>
         <p>Location: 333 Maynard, Suite 500</p>
+        <p class="footer-last-line">© Copyrights <span id="year"></span> by UMSI. All rights reserved.</p>
 
     </footer>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 </body>
 </html>
    
